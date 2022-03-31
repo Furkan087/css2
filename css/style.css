@@ -1,0 +1,63 @@
+body{
+  background-color: lightcyan;
+}
+
+h3{
+color:darkgreen;
+font-family: tahoma;
+font-size: 30px;
+text-align: center;
+background-color: lightgreen;
+}
+.b{
+  color: darkcyan;
+  font-family: tahoma;
+  font-size: 30px;
+  text-align: center;
+  background-color: lightcyan;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: tahoma;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+  text-align: center;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
